@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="board_outer" data-sceen="first_setting">
+    <div style="width: 100%; position: absolute; top: 0; z-index: -1;">
+      <div class="btn_outer">
+        <button class="game_set_btn">終了</button>
+        <div class="game_control">
+          <button class="call_btn">コール</button>
+          <button class="raise_btn">レイズ</button>
+          <button class="fold_btn">フォールド</button>
+        </div>
+        <button>リセット</button>
+      </div>
+      <div class="chip_table_outer">
+        <table class="chip_table">
+          <tr>
+            <th><p>プレイヤー</p></th>
+            <th><p>持ち金</p></th>
+            <th><p>賭け金</p></th>
+          </tr>
+          <tr>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+          </tr>
+          <tr>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+          </tr>
+          <tr>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+          </tr>
+          <tr>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+          </tr>
+          <tr>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+          </tr>
+        </table>
+        <table class="chip_table">
+          <tr>
+            <th><p>プレイヤー</p></th>
+            <th><p>持ち金</p></th>
+            <th><p>賭け金</p></th>
+          </tr>
+          <tr>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+          </tr>
+          <tr>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+          </tr>
+          <tr>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+          </tr>
+          <tr>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+          </tr>
+          <tr>
+            <td><p></p></td>
+            <td><p></p></td>
+            <td><p></p></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="first_setting">
+      <div class="setting_inner">
+        <div>
+          <p>プレイヤー数</p>
+          <input type="text" name="" id="" value="0" class="player_num">
+        </div>
+        <div>
+          <p>初期持ち金</p>
+          <input type="text" name="" id="" value="0" class="first_money">
+        </div>
+        <button class="setting_decision">決定</button>
+      </div>
+    </div>
+    <div class="raise_setting">
+      <div class="setting_inner">
+        <div>
+          <p>レイズ後の総賭け金</p>
+          <input type="text" name="" id="" value="0" class="bed_money">
+        </div>
+        <button class="raise_decision">決定</button>
+      </div>
+    </div>
+    <div class="winner_setting">
+      <div class="setting_inner">
+        <div>
+          <p>勝利プレイヤー</p>
+          <input type="text" name="" id="" value="0" class="winner_player">
+        </div>
+        <button class="game_set_decision">決定</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
