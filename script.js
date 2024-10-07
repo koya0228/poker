@@ -55,6 +55,8 @@ $('.call_btn')[0].addEventListener('click' , () => {
 $('.raise_btn')[0].addEventListener('click' , () => {
   $('.board_outer')[0].dataset.sceen = 'raise_setting';
   $('.raise_setting')[0].style.display = 'flex';
+
+  $('.display_max_money')[0].innerText = maxBedMoney;
 });
 $('.raise_decision')[0].addEventListener('click' , () => {
   const playerIndex = (firstPlayer + actionNum - 1) % playerNum + 1;
