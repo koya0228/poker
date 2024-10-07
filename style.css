@@ -47,7 +47,8 @@
 }
 
 .first_setting,
-.raise_setting {
+.raise_setting,
+.winner_setting{
     width: 100vw;
     height: 100vh;
     background: rgba(161, 163, 165, 0.575);
